@@ -3,4 +3,4 @@
 
 <h2> Week1 <h2/>
   
-> Vivado 설치 및 기초 개념
+Vivado 설치 및 기초 개념
