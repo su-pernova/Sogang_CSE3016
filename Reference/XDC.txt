@@ -1,0 +1,8 @@
+set_property ALLOW_COMBINATORIAL_LOOPS true [get_nets <net_name>]
+(예시/출력의 변수가 q1인 경우 -> set_property ALLOW_COMBINATORIAL_LOOPS true [get_nets q1_OBUF])
+
+set_property SEVERITY {Warning}  [get_drc_checks LUTLP-1] 
+
+set_property SEVERITY {Warning} [get_drc_checks NSTD-1]
+
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF]
